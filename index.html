@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur</title>
+    <link rel="stylesheet" href="./styles/imgur.css">
+</head>
+
+<body>
+    <header>
+        <div id="header-parent">
+            <div><img src="./images/logo.png" alt="imggur logo"></div>
+            <div><img src="./images/newpost.png" alt=""></div>
+            <div>
+                <input type="text" placeholder="Images, #tag, @users oh my!" oninput="debounce(getApiData,1000)" id="input-data"><img
+                    src="./images/search.png" alt="" width="30" height="30" />
+            </div>
+            <div><img src="./images/batch.png" alt=""></div>
+            <div><img src="./images/adfree.png" alt=""></div>
+            <div><img src="./images/signin.png" alt=""></div>
+            <div><img src="./images/signup.png" alt=""></div>
+        </div>
+
+        <div id="show-search-parent">
+            
+        </div>
+    </header>
+
+    <section>
+        <div id="image-container">
+
+        </div>
+    </section>
+
+
+    <footer>
+
+    </footer>
+    <script src="./scripts/imgur.js"></script>
+</body>
+
+</html>
