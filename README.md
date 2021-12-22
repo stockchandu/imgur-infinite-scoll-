@@ -1,4 +1,4 @@
-# imgur-infinite-scoll-
+# imgur-infinite-scroll
 implemented lazy load features for infinite scroll 
-| Visit   | [Nordstrom](https://imgur-lazyload-chandu.netlify.app/) |
+| Visit   | [infinite-imgur](https://imgur-lazyload-chandu.netlify.app/) |
 | --- | ---|
